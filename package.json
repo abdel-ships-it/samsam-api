@@ -1,0 +1,30 @@
+{
+  "name": "samsam-api",
+  "version": "1.0.0",
+  "description": "Samsam backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/realappie/samsam-api.git"
+  },
+  "author": "Abdalla Elmedny",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/realappie/samsam-api/issues"
+  },
+  "homepage": "https://github.com/realappie/samsam-api#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "firebase-admin": "^4.1.3",
+    "forever": "^0.15.3",
+    "mollie": "^2.0.2",
+    "request-promise": "^4.2.0"
+  }
+}
